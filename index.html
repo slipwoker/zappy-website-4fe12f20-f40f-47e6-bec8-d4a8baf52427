@@ -353,10 +353,10 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
 <a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
@@ -837,16 +837,25 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-treatment="fade-bleed" style="--hero-fade-color: var(--bg-light);" data-hero-type="fullscreen-scrim">
-    <img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A calm eco-friendly pest control technician kneeling in a sunlit organic garden, holding a humane trap near potted herbs and flowering plants, warm golden hour light, soft focus background, natural earthy tones, no chemicals visible, inviting and reassuring mood." width="1200" height="600" src="/assets/site-index-hero-image-1.webp" alt="טכנאי הדברה אקולוגית בגינה אורגנית" decoding="async">
+    
+
+
+
+
+
+
+
+
+  <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-treatment="fade-bleed" style="--hero-fade-color: var(--bg-light);" data-hero-type="fullscreen-scrim" id="index-hero-section">
+    <img loading="eager" fetchpriority="high" class="hero-fade-img" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A calm eco-friendly pest control technician kneeling in a sunlit organic garden, holding a humane trap near potted herbs and flowering plants, warm golden hour light, soft focus background, natural earthy tones, no chemicals visible, inviting and reassuring mood." width="1200" height="600" src="/assets/site-index-hero-image-1.webp" alt="טכנאי הדברה אקולוגית בגינה אורגנית" data-hero-background="true" data-element-type="image" data-element-id="img-1783870090367-7tuxjptoi" decoding="async">
     
     <div class="hero-fade-content">
-      <span class="hero-eyebrow">ללא רעלים • הדברה טבעית</span>
-      <h1 class="display-xl">ההרחקה המושלמת<br>ללא חומרי הדברה</h1>
+      <p class="zappy-editable"><span class="hero-eyebrow">ללא רעלים • הדברה טבעית</span>
+      </p><h1 class="display-xl">ההרחקה המושלמת<br>ללא חומרי הדברה</h1>
       <h3 class="hero-subtitle">שירות לכידה והרחקה בטוח למשפחה, לגינה, למרפסת ולשטחים אורגניים – בשיטות טבעיות, אחראיות ויעילות.</h3>
       <div class="hero-cta-group">
-        <a href="#contact" class="btn-primary">בקשו ייעוץ חינם</a>
-        <a href="#method" class="btn-secondary">גלו את השיטה</a>
+        <a href="#contact" class="btn-primary" data-element-type="button" data-element-id="btn-1783870090353-9wjaiqg50" data-native-element="true">בקשו ייעוץ חינם</a>
+        <a href="#method" class="btn-secondary" data-element-type="button" data-element-id="btn-1783870090353-yfl7mnd7i" data-native-element="true">גלו את השיטה</a>
       </div>
       <div class="hero-botanical-mark" aria-hidden="true">
         <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 80 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -876,19 +885,18 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
       </svg>
     </div>
   </section>
-
-<section data-band-index="1" class="index-benefits-section" data-layout-spec="בית-benefits">
+<section data-band-index="1" class="index-benefits-section" data-layout-spec="בית-benefits" id="index-benefits-section">
   <!-- Intro Block -->
   <div class="benefits-intro">
-    <span class="section-tag">היתרונות שלנו</span>
-    <h2 class="benefits-heading">למה לבחור בהדברה טבעית?</h2>
+    <p class="zappy-editable"><span class="section-tag">היתרונות שלנו</span>
+    </p><h2 class="benefits-heading">למה לבחור בהדברה טבעית?</h2>
     <p class="benefits-subtitle">אנחנו מציעים גישה שונה לחלוטין להדברת מזיקים – כזו שמגנה על הבית, על המשפחה ועל הסביבה, מבלי להשתמש בחומרים רעילים.</p>
   </div>
 
   <!-- Benefits Cards Grid -->
-  <div class="benefits-grid">
+  <div class="benefits-grid zappy-preserve-css-grid" data-original-item-width="281" data-original-gap="20px" style="display: grid; --zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 281px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 281px), 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
     <!-- Card 1: Safe for Family -->
-    <article class="benefit-card card-offset-1">
+    <article class="benefit-card card-offset-1" data-grid-item-index="0">
       <div class="card-icon-wrapper">
         <svg class="card-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
           <circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4" opacity="0.4"></circle>
@@ -906,7 +914,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     </article>
 
     <!-- Card 2: Garden Friendly -->
-    <article class="benefit-card card-offset-2">
+    <article class="benefit-card card-offset-2" data-grid-item-index="1">
       <div class="card-icon-wrapper">
         <svg class="card-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
           <circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4" opacity="0.4"></circle>
@@ -921,7 +929,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     </article>
 
     <!-- Card 3: Long-Term Prevention -->
-    <article class="benefit-card card-offset-3">
+    <article class="benefit-card card-offset-3" data-grid-item-index="2">
       <div class="card-icon-wrapper">
         <svg class="card-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-type="icon" data-icon-type="svg">
           <circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4" opacity="0.4"></circle>
@@ -972,7 +980,6 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
   <div class="accent-dot dot-2" aria-hidden="true"></div>
   <div class="accent-dot dot-3" aria-hidden="true"></div>
 </section>
-
 <section data-band-index="2" class="index-process-section" data-layout-spec="בית-process" style="background: var(--bg-dark); color: var(--text-light); position: relative; overflow: visible; padding-bottom: 80px;" id="index-process-section">
   <div class="index-process-section__container" style="max-width: 1200px; margin: 0 auto; padding: 96px 32px; position: relative; z-index: 1;">
     
@@ -1046,24 +1053,65 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
   <div class="index-process-section__divider-wrapper" style="position: absolute; bottom: 0; left: 0; width: 100%; height: 80px; pointer-events: none; z-index: 5;">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="display: block; width: 100%; height: 100%;">
       <!-- Layer 1: Main torn paper edge -->
-      <path d="M0,80 L0,30 Q50,25 100,32 T200,28 Q250,35 300,25 T400,30 Q450,28 500,35 T600,28 Q650,32 700,25 T800,30 Q850,28 900,35 T1000,28 Q1050,32 1100,25 T1200,30 L1200,80 Z" fill="#F5F0E8" opacity="0.95"></path>
+      <path d="M0,80 L0,30 Q50,25 100,32 T200,28 Q250,35 300,25 T400,30 Q450,28 500,35 T600,28 Q650,32 700,25 T800,30 Q850,28 900,35 T1000,28 Q1050,32 1100,25 T1200,30 L1200,80 Z" fill="#fafbf7" opacity="0.95"></path>
       <!-- Layer 2: Slightly offset lower torn edge for depth -->
-      <path d="M0,80 L0,45 Q50,40 100,48 T200,42 Q250,50 300,40 T400,45 Q450,42 500,50 T600,42 Q650,48 700,40 T800,45 Q850,42 900,50 T1000,42 Q1050,48 1100,40 T1200,45 L1200,80 Z" fill="#F5F0E8" opacity="0.7"></path>
+      <path d="M0,80 L0,45 Q50,40 100,48 T200,42 Q250,50 300,40 T400,45 Q450,42 500,50 T600,42 Q650,48 700,40 T800,45 Q850,42 900,50 T1000,42 Q1050,48 1100,40 T1200,45 L1200,80 Z" fill="#fafbf7" opacity="0.7"></path>
       <!-- Layer 3: Deeper shadow edge -->
       <path d="M0,80 L0,60 Q50,55 100,62 T200,56 Q250,65 300,55 T400,60 Q450,56 500,65 T600,56 Q650,62 700,55 T800,60 Q850,56 900,65 T1000,56 Q1050,62 1100,55 T1200,60 L1200,80 Z" fill="var(--border-light)" opacity="0.3"></path>
     </svg>
   </div>
 
 </section>
-
-<section data-band-index="3" class="index-showcase-section" data-layout-spec="בית-showcase">
+<section class="certified-pest-section" aria-labelledby="certified-heading" data-zappy-component="true" id="ai-section-1783870084688-3pbnxqg">
+  <div class="certified-container">
+    <div class="certified-content">
+      <div class="certified-text">
+        <p class="zappy-editable"><span class="certified-badge" aria-label="תג איכות">בטיחות מוסמכת</span>
+        </p><h2 id="certified-heading" class="certified-title">כשחייבים חומרים – אנחנו עובדים רק עם מורשים</h2>
+        <p class="certified-description">
+          אנו מאמינים שהפתרון הטבעי הוא תמיד הבחירה הראשונה. עם זאת, במצבים בהם לא ניתן להשתמש בכלים המתאימים
+          וקיים צורך מוכח בחומרים ייעודיים – החברה שלנו פועלת אך ורק באמצעות <strong>מדבירים מוסמכים</strong>
+          בעלי רישיון תקף, המאושרים על ידי <strong>המשרד להגנת הסביבה</strong>.
+        </p>
+        <ul class="certified-list" aria-label="יתרונות ההסמכה">
+          <li class="certified-list-item" data-grid-item-index="0">
+            <span class="certified-check" aria-hidden="true">✓</span>
+            <span>מדבירים בעלי הסמכה רשמית מטעם המשרד להגנת הסביבה</span>
+          </li>
+          <li class="certified-list-item" data-grid-item-index="1">
+            <span class="certified-check" aria-hidden="true">✓</span>
+            <span>שימוש בחומרים מאושרים בלבד, תוך הקפדה על כל תקנות הבטיחות</span>
+          </li>
+          <li class="certified-list-item" data-grid-item-index="2">
+            <span class="certified-check" aria-hidden="true">✓</span>
+            <span>שקיפות מלאה – תקבלו מידע מפורט על כל חומר בו נעשה שימוש</span>
+          </li>
+          <li class="certified-list-item" data-grid-item-index="3">
+            <span class="certified-check" aria-hidden="true">✓</span>
+            <span>ביטוח אחריות מקצועית לשקט הנפשי שלכם</span>
+          </li>
+        </ul>
+      </div>
+      <div class="certified-visual">
+        <div class="certified-image-wrapper">
+          <img data-placeholder="certified-expert-1" data-context="Professional certified pest control expert in full protective gear holding an official environmental protection ministry certificate, standing confidently in a modern home setting, natural lighting, professional photography" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27500%27 height=%27375%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2718%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="מדביר מוסמך מטעם המשרד להגנת הסביבה" class="certified-image" data-zappy-editable-image="true" data-element-type="image" data-element-id="img-1783870090390-s79qtn90a" style="" loading="lazy" decoding="async" fetchpriority="low">
+          <div class="certified-stamp" aria-label="תו תקן רשמי">
+            <span class="certified-stamp-text">מאושר</span>
+            <span class="certified-stamp-sub">המשרד להגנת הסביבה</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section data-band-index="3" class="index-showcase-section" data-layout-spec="בית-showcase" id="index-showcase-section">
   <div class="index-showcase-section__container">
     
     <!-- START Side: Content Panels -->
     <div class="index-showcase-section__content">
       
       <!-- Panel 1: Spaces Served -->
-      <div class="index-showcase-section__panel index-showcase-section__panel--spaces">
+      <div class="index-showcase-section__panel index-showcase-section__panel--spaces" data-grid-item-index="0">
         <div class="index-showcase-section__panel-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path d="M4 16H10V28H4V16Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -1095,7 +1143,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
       </div>
 
       <!-- Panel 2: Signs to Watch -->
-      <div class="index-showcase-section__panel index-showcase-section__panel--signs">
+      <div class="index-showcase-section__panel index-showcase-section__panel--signs zappy-grid-item-no-stretch" data-grid-item-index="1">
         <div class="index-showcase-section__panel-icon">
           <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2"></circle>
@@ -1105,20 +1153,20 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         </div>
         <h3 class="index-showcase-section__panel-title">סימנים שכדאי לשים לב אליהם</h3>
         <p class="index-showcase-section__panel-text">זיהוי מוקדם מונע נזקים. שימו לב להפרשות, הפרעות בקרקע, סימני כרסום, חומרי קינון ונקודות כניסה חוזרות – כל אלו מעידים על נוכחות אורחים לא רצויים.</p>
-        <div class="index-showcase-section__signs-grid">
-          <div class="index-showcase-section__sign-badge">
+        <div class="index-showcase-section__signs-grid zappy-preserve-css-grid" id="zappy-auto-grid-1783870090587-1cqnlm" data-zappy-auto-grid="true" data-original-item-width="193" data-original-gap="12px" style="display: grid; --zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 193px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 193px), 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
+          <div class="index-showcase-section__sign-badge" data-grid-item-index="0">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5"></circle><circle cx="8" cy="8" r="2" fill="currentColor"></circle></svg>
             <span>הפרשות</span>
           </div>
-          <div class="index-showcase-section__sign-badge">
+          <div class="index-showcase-section__sign-badge" data-grid-item-index="1">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3 8L6 5L10 9L13 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
             <span>הפרעות בקרקע</span>
           </div>
-          <div class="index-showcase-section__sign-badge">
+          <div class="index-showcase-section__sign-badge" data-grid-item-index="2">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M4 4L12 12M12 4L4 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg>
             <span>סימני כרסום</span>
           </div>
-          <div class="index-showcase-section__sign-badge">
+          <div class="index-showcase-section__sign-badge" data-grid-item-index="3">
             <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M3 13L8 8L13 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8 8V3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg>
             <span>חומרי קינון</span>
           </div>
@@ -1130,7 +1178,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     <!-- END Side: Feature Image with Decorative Backplate -->
     <div class="index-showcase-section__media">
       <div class="index-showcase-section__image-wrapper">
-        <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-1" data-context="A peaceful, sunlit garden corner with a covered compost bin, terracotta herb pots, and a discreet humane trap placed among greenery. The scene feels calm, natural, and eco-friendly, reflecting a pest control service that works in harmony with nature." width="600" height="400" src="/assets/site-index-showcase-image-1.webp" alt="פינת גינה שלווה עם מלכודת הומנית ועציצי תבלינים" class="index-showcase-section__image" fetchpriority="low">
+        <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-1" data-context="A peaceful, sunlit garden corner with a covered compost bin, terracotta herb pots, and a discreet humane trap placed among greenery. The scene feels calm, natural, and eco-friendly, reflecting a pest control service that works in harmony with nature." width="600" height="400" src="/assets/site-index-showcase-image-1.webp" alt="פינת גינה שלווה עם מלכודת הומנית ועציצי תבלינים" class="index-showcase-section__image" data-element-type="image" data-element-id="img-1783870090372-bxrvknkfd" fetchpriority="low">
         <!-- Decorative Paper Backplate -->
         <div class="index-showcase-section__backplate" aria-hidden="true">
           <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1161,8 +1209,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
   </div>
 
 </section>
-
-<section data-band-index="4" class="index-cta-section" data-layout-spec="בית-cta">
+<section data-band-index="4" class="index-cta-section" data-layout-spec="בית-cta" id="index-cta-section">
   <div class="index-cta-section__container">
     <h2 class="index-cta-section__heading">בחרו בדרך הבטוחה להתמודד עם מזיקים</h2>
     <p class="index-cta-section__text">ספרו לנו מה מפריע לכם בבית או בגינה, ונחזור אליכם עם צעדים פרקטיים ויעילים – ללא חומרי הדברה כימיים.</p>
@@ -1172,8 +1219,8 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         <path d="M1140,28 Q1160,18 1170,28" fill="none" stroke="var(--primary)" stroke-width="2" opacity="0.4"></path>
       </svg>
     </div>
-    <a href="/contact" class="index-cta-section__btn">צרו קשר עם הצוות שלנו</a>
-  </div>
+    <p class="zappy-editable"><a href="/contact" class="index-cta-section__btn" data-element-type="button" data-element-id="btn-1783870090353-0401es2r1" data-native-element="true">צרו קשר עם הצוות שלנו</a>
+  </p></div>
   <div class="index-cta-section__deco-circle" aria-hidden="true"></div>
   <div class="index-cta-section__deco-leaf-left" aria-hidden="true">
     <svg viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1190,8 +1237,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
       <circle cx="25" cy="45" r="4" fill="var(--accent)" opacity="0.1"></circle>
     </svg>
   </div>
-</section>
-  </main>
+</section></main>
   
   
 
@@ -1199,47 +1245,47 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
 
 
 
-<section class="natural-solutions" aria-labelledby="natural-heading" data-zappy-component="true" id="ai-section-1783869221566-rv73mcj">
+<section class="natural-solutions" aria-labelledby="natural-heading" data-zappy-component="true" id="ai-section-1783869221566-rv73mcj" style="min-height: 937.297px !important;">
   <div class="natural-solutions__container">
     <div class="natural-solutions__header">
       <h2 id="natural-heading" class="natural-solutions__title">לפני הדברה בחומרים מסוכנים – תוכלו לפתור ללא רעלים</h2>
       <p class="natural-solutions__subtitle">הפתרון הטבעי, הבטוח והיעיל ביותר להרחקת מזיקים – ללא סיכון למשפחה, לחיות המחמד או לסביבה. ההרחקה המושלמת מתחילה פה.</p>
     </div>
 
-    <div class="natural-solutions__grid">
-      <article class="natural-solutions__card">
+    <div class="natural-solutions__grid zappy-preserve-css-grid" id="zappy-auto-grid-1783870090655-3gy9c6" data-zappy-auto-grid="true" data-original-item-width="279" data-original-gap="28px" style="display: grid; --zappy-grid-cols: repeat(auto-fit, minmax(min(100%, 279px), 1fr)); grid-template-columns: repeat(auto-fit, minmax(min(100%, 279px), 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
+      <article class="natural-solutions__card" data-grid-item-index="0">
         <div class="natural-solutions__card-media">
-          <img data-placeholder="natural-family-safe" data-context="A happy family with two children and a dog relaxing safely in a bright, clean living room, symbolizing a toxin-free home environment" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="משפחה בטוחה בסביבה נקייה מרעלים" class="natural-solutions__card-img" loading="lazy" decoding="async" fetchpriority="low">
+          <img data-placeholder="natural-family-safe" data-context="A happy family with two children and a dog relaxing safely in a bright, clean living room, symbolizing a toxin-free home environment" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="משפחה בטוחה בסביבה נקייה מרעלים" data-zappy-editable-image="true" class="natural-solutions__card-img" loading="lazy" data-element-type="image" data-element-id="img-1783870090376-fz3xs6yv2" style="" decoding="async" fetchpriority="low">
         </div>
         <div class="natural-solutions__card-body">
           <div class="natural-solutions__card-icon" aria-hidden="true">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-element-id="icon-1783870090364-rzqgdac25" data-icon-type="svg"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
           </div>
           <h3 class="natural-solutions__card-title">100% בטוח למשפחה</h3>
           <p class="natural-solutions__card-text">ללא כימיקלים רעילים, ללא שאריות מסוכנות. ילדים וחיות מחמד יכולים לשהות בבית מיד לאחר הטיפול.</p>
         </div>
       </article>
 
-      <article class="natural-solutions__card">
+      <article class="natural-solutions__card" data-grid-item-index="1">
         <div class="natural-solutions__card-media">
-          <img data-placeholder="natural-eco-friendly" data-context="A lush green garden with beneficial insects like ladybugs and bees, representing eco-friendly pest control and environmental balance" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="הדברה ידידותית לסביבה" class="natural-solutions__card-img" loading="lazy" decoding="async" fetchpriority="low">
+          <img data-placeholder="natural-eco-friendly" data-context="A lush green garden with beneficial insects like ladybugs and bees, representing eco-friendly pest control and environmental balance" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="הדברה ידידותית לסביבה" data-zappy-editable-image="true" class="natural-solutions__card-img" loading="lazy" data-element-type="image" data-element-id="img-1783870090382-a99q7pb7z" style="" decoding="async" fetchpriority="low">
         </div>
         <div class="natural-solutions__card-body">
           <div class="natural-solutions__card-icon" aria-hidden="true">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20"></path><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-element-id="icon-1783870090364-39vrs4c7k" data-icon-type="svg"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20"></path><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
           </div>
           <h3 class="natural-solutions__card-title">שומר על הסביבה</h3>
           <p class="natural-solutions__card-text">שיטות הדברה אקולוגיות שאינן מזהמות קרקע, מים או אוויר. אנחנו מגנים על כדור הארץ ביחד.</p>
         </div>
       </article>
 
-      <article class="natural-solutions__card">
+      <article class="natural-solutions__card" data-grid-item-index="2">
         <div class="natural-solutions__card-media">
-          <img data-placeholder="natural-proven-results" data-context="A professional pest control technician inspecting a clean, pest-free kitchen countertop with a magnifying glass, showing proven natural results" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="תוצאות מוכחות של הדברה טבעית" class="natural-solutions__card-img" loading="lazy" decoding="async" fetchpriority="low">
+          <img data-placeholder="natural-proven-results" data-context="A professional pest control technician inspecting a clean, pest-free kitchen countertop with a magnifying glass, showing proven natural results" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27400%27 height=%27300%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2716%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="תוצאות מוכחות של הדברה טבעית" data-zappy-editable-image="true" class="natural-solutions__card-img" loading="lazy" data-element-type="image" data-element-id="img-1783870090386-78d3g32ff" style="" decoding="async" fetchpriority="low">
         </div>
         <div class="natural-solutions__card-body">
           <div class="natural-solutions__card-icon" aria-hidden="true">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-element-type="icon" data-element-id="icon-1783870090364-3a02m8739" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
           </div>
           <h3 class="natural-solutions__card-title">יעילות מוכחת</h3>
           <p class="natural-solutions__card-text">שיטות טבעיות שהוכחו מדעית כאפקטיביות לא פחות – ולעיתים אף יותר – מחומרים כימיים. תוצאות שמחזיקות לאורך זמן.</p>
@@ -1250,7 +1296,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     <div class="natural-solutions__cta-wrapper">
       <a href="#contact" class="natural-solutions__cta" role="button">
         <span>לקביעת טיפול טבעי עכשיו</span>
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true" data-element-type="icon" data-element-id="icon-1783870090364-l3j7r32jd" data-icon-type="svg"><polyline points="15 18 9 12 15 6"></polyline></svg>
       </a>
     </div>
   </div>
@@ -1294,7 +1340,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
       </div>
       <div class="certified-visual">
         <div class="certified-image-wrapper">
-          <img data-placeholder="certified-expert-1" data-context="Professional certified pest control expert in full protective gear holding an official environmental protection ministry certificate, standing confidently in a modern home setting, natural lighting, professional photography" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27500%27 height=%27375%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2718%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="מדביר מוסמך מטעם המשרד להגנת הסביבה" class="certified-image" loading="lazy" decoding="async" fetchpriority="low">
+          <img data-placeholder="certified-expert-1" data-context="Professional certified pest control expert in full protective gear holding an official environmental protection ministry certificate, standing confidently in a modern home setting, natural lighting, professional photography" src="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%27500%27 height=%27375%27%3E%3Cdefs%3E%3ClinearGradient id=%27grad%27 x1=%270%25%27 y1=%270%25%27 x2=%27100%25%27 y2=%27100%25%27%3E%3Cstop offset=%270%25%27 style=%27stop-color:%23FF0083;stop-opacity:1%27 /%3E%3Cstop offset=%27100%25%27 style=%27stop-color:%23FF008320;stop-opacity:1%27 /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%27100%25%27 height=%27100%25%27 fill=%27url(%23grad)%27/%3E%3Ctext x=%2750%25%27 y=%2750%25%27 font-family=%27Arial, sans-serif%27 font-size=%2718%27 fill=%27white%27 text-anchor=%27middle%27 dy=%27.3em%27 font-weight=%27500%27%3EClick%20to%20add%20image%3C/text%3E%3C/svg%3E" alt="מדביר מוסמך מטעם המשרד להגנת הסביבה" class="certified-image" data-zappy-editable-image="true" loading="lazy" decoding="async" fetchpriority="low">
           <div class="certified-stamp" aria-label="תו תקן רשמי">
             <span class="certified-stamp-text">מאושר</span>
             <span class="certified-stamp-sub">המשרד להגנת הסביבה</span>
