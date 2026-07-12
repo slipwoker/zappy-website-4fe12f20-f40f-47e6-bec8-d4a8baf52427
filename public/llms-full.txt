@@ -2,13 +2,13 @@
 
 An eco-friendly pest control business that specializes in capturing and eliminating pests without the use of chemical pesticides. The brand positions itself as a safe, natural, and environmentally responsible alternative to traditional extermination services, appealing to health-conscious and environmentally aware customers.
 
-Source: https://-4fe12f20.zappy5.app
+Source: https://example.com
 
 ---
 
 ## הדברה טבעית ללא רעלים — ההרחקה המושלמת
 
-URL: https://-4fe12f20.zappy5.app
+URL: https://example.com
 Description: מחפשים הדברה בטוחה וירוקה? ההרחקה המושלמת מציעה שירותי הרחקת מזיקים אקולוגיים ללא כימיקלים, מותאמים לבית ולסביבה. לחצו לגלות פתרון בריא עכשיו!
 
 הדברה טבעית ללא רעלים — ההרחקה המושלמת
@@ -435,7 +435,7 @@ Description: מחפשים הדברה בטוחה וירוקה? ההרחקה המ�
 
 ## מחסלים מזיקים בלי לפגוע בטבע — ההרחקה המושלמת
 
-URL: https://-4fe12f20.zappy5.app/services
+URL: https://example.com/services
 Description: הכירו את מגוון שירותי ההדברה האקולוגית שלנו: לכידה הומנית, הרחקה טבעית ופתרונות מותאמים אישית. ההגנה הכי בטוחה למשפחה שלכם מחכה כאן!
 
 מחסלים מזיקים בלי לפגוע בטבע — ההרחקה המושלמת
@@ -915,7 +915,7 @@ Description: הכירו את מגוון שירותי ההדברה האקולוג
 
 ## הסיפור מאחורי ההדברה הבריאה — ההרחקה המושלמת
 
-URL: https://-4fe12f20.zappy5.app/about
+URL: https://example.com/about
 Description: אנחנו צוות מומחים שמאמין בהדברה אחרת – כזו ששומרת על הבריאות ועל כדור הארץ. גלו את החזון הירוק שלנו ואת המחויבות לשירות נטול כימיקלים.
 
 הסיפור מאחורי ההדברה הבריאה — ההרחקה המושלמת
@@ -1297,7 +1297,7 @@ Description: אנחנו צוות מומחים שמאמין בהדברה אחרת
 
 ## דברו איתנו – ההדברה הטבעית מתחילה כאן — ההרחקה המושלמת
 
-URL: https://-4fe12f20.zappy5.app/contact
+URL: https://example.com/contact
 Description: מוכנים להיפרד מהמזיקים בדרך הבטוחה? צרו קשר עם ההרחקה המושלמת עוד היום לקבלת ייעוץ חינם והצעת מחיר משתלמת. הבית שלכם ראוי להגנה הטובה ביותר!
 
 דברו איתנו – ההדברה הטבעית מתחילה כאן — ההרחקה המושלמת
@@ -1613,7 +1613,7 @@ Description: מוכנים להיפרד מהמזיקים בדרך הבטוחה? �
 
 ## מדיניות פרטיות
 
-URL: https://-4fe12f20.zappy5.app/privacy
+URL: https://example.com/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -1862,7 +1862,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://-4fe12f20.zappy5.app/accessibility
+URL: https://example.com/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -2120,7 +2120,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://-4fe12f20.zappy5.app/terms
+URL: https://example.com/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -2397,7 +2397,7 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 ## תודה שפניתם אלינו
 
-URL: https://-4fe12f20.zappy5.app/thank-you
+URL: https://example.com/thank-you
 Description: ההרחקה המושלמת - תודה שפניתם אלינו
 
 תודה שפניתם אלינו

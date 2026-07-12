@@ -7,37 +7,37 @@
 ## Pages
 
 ### בית
-https://-4fe12f20.zappy5.app
+https://example.com
 מחפשים הדברה בטוחה וירוקה? ההרחקה המושלמת מציעה שירותי הרחקת מזיקים אקולוגיים ללא כימיקלים, מותאמים לבית ולסביבה. לחצו לגלות פתרון בריא עכשיו!
 
 ### שירותים
-https://-4fe12f20.zappy5.app/services
+https://example.com/services
 הכירו את מגוון שירותי ההדברה האקולוגית שלנו: לכידה הומנית, הרחקה טבעית ופתרונות מותאמים אישית. ההגנה הכי בטוחה למשפחה שלכם מחכה כאן!
 
 ### אודות
-https://-4fe12f20.zappy5.app/about
+https://example.com/about
 אנחנו צוות מומחים שמאמין בהדברה אחרת – כזו ששומרת על הבריאות ועל כדור הארץ. גלו את החזון הירוק שלנו ואת המחויבות לשירות נטול כימיקלים.
 
 ### צור קשר
-https://-4fe12f20.zappy5.app/contact
+https://example.com/contact
 מוכנים להיפרד מהמזיקים בדרך הבטוחה? צרו קשר עם ההרחקה המושלמת עוד היום לקבלת ייעוץ חינם והצעת מחיר משתלמת. הבית שלכם ראוי להגנה הטובה ביותר!
 
 ### תודה שפניתם אלינו
-https://-4fe12f20.zappy5.app/thank-you
+https://example.com/thank-you
 ההרחקה המושלמת - תודה שפניתם אלינו
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-4fe12f20.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-4fe12f20.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-4fe12f20.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -47,8 +47,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://-4fe12f20.zappy5.app/contact
-- Endpoint: https://-4fe12f20.zappy5.app/api/email/contact-form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -82,6 +82,6 @@ Pest Control
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-4fe12f20.zappy5.app/sitemap.xml
-- Robots: https://-4fe12f20.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-4fe12f20.zappy5.app/llms-full.txt
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
