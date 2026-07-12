@@ -6608,6 +6608,227 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
     font-size: 1rem;
   }
 }
+
+/* Added Component Styles */
+.eco-services {
+  background: #f9faf7;
+  padding: 80px 24px;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+}
+
+.eco-services__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.eco-services__header {
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.eco-services__title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 16px 0;
+  line-height: 1.3;
+}
+
+.eco-services__subtitle {
+  font-size: 1.125rem;
+  color: #4a4a5e;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.eco-services__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-bottom: 56px;
+}
+
+.eco-service-card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.eco-service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+.eco-service-card__visual {
+  position: relative;
+  overflow: hidden;
+  height: 220px;
+}
+
+.eco-service-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.eco-service-card:hover .eco-service-card__image {
+  transform: scale(1.05);
+}
+
+.eco-service-card__badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: var(--primary, #6F7F3F);
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.eco-service-card__content {
+  padding: 28px 24px 32px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.eco-service-card__title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 12px 0;
+  line-height: 1.3;
+}
+
+.eco-service-card__text {
+  font-size: 1rem;
+  color: #4a4a5e;
+  line-height: 1.65;
+  margin: 0 0 20px 0;
+}
+
+.eco-service-card__features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: auto;
+}
+
+.eco-service-card__feature {
+  font-size: 0.95rem;
+  color: #2a2a3e;
+  padding: 6px 0 6px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid #f0f2eb;
+}
+
+.eco-service-card__feature:last-child {
+  border-bottom: none;
+}
+
+.eco-service-card__feature::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: var(--primary, #6F7F3F);
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-left: 4px;
+}
+
+.eco-services__cta {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.eco-services__button {
+  display: inline-block;
+  background: var(--primary, #6F7F3F);
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 16px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background 0.25s ease, transform 0.2s ease, box-shadow 0.25s ease;
+  box-shadow: 0 4px 14px rgba(111, 127, 63, 0.3);
+}
+
+.eco-services__button:hover {
+  background: #5a6a32;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(111, 127, 63, 0.4);
+}
+
+.eco-services__button:focus-visible {
+  outline: 3px solid #1a1a2e;
+  outline-offset: 3px;
+}
+
+.eco-services__guarantee {
+  font-size: 0.95rem;
+  color: #2a2a3e;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .eco-services__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  
+  .eco-services__title {
+    font-size: 1.85rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .eco-services {
+    padding: 56px 16px;
+  }
+  
+  .eco-services__grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .eco-services__title {
+    font-size: 1.6rem;
+  }
+  
+  .eco-services__subtitle {
+    font-size: 1rem;
+  }
+  
+  .eco-service-card__visual {
+    height: 200px;
+  }
+  
+  .eco-services__button {
+    width: 100%;
+    text-align: center;
+    padding: 16px 24px;
+    font-size: 1rem;
+  }
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
